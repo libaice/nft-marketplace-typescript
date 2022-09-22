@@ -3,21 +3,27 @@ import { BaseLayout, NftList } from "@ui";
 import nfts from "../content/meta.json";
 import { NftMeta } from "@_types/nft";
 import { useWeb3 } from "@providers/web3";
-import { Provider } from "@ethersproject/abstract-provider";
 
 const Home: NextPage = () => {
-  const { provider } = useWeb3();
+  const { provider, contract } = useWeb3();
+  console.log(contract);
 
+  const getNftInfo = async () => {
+    console.log(await contract!.name());
+    console.log(await contract!.symbol());
+  };
 
-  
-  const getAccounts =async () => {
+  if (contract) {
+    getNftInfo();
+  }
+
+  const getAccounts = async () => {
     const accounts = await provider!.listAccounts();
     console.log(accounts[0]);
     console.log(accounts[1]);
-  }
+  };
 
-
-  if(provider){
+  if (provider) {
     getAccounts();
   }
 
