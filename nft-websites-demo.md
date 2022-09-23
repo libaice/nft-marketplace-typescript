@@ -85,3 +85,11 @@
     Github : https://github.com/koolkishan/react-nft-landing
 
     Youtube Demo : [React Responsive NFT Website Design ](https://www.youtube.com/watch?v=up60it73iqU)
+
+
+12. gclx   
+    
+    Website : https://gclx.xyz/
+    
+    Github : https://github.com/lxdao-official/gclx-official
+
