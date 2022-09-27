@@ -92,4 +92,9 @@
     Website : https://gclx.xyz/
     
     Github : https://github.com/lxdao-official/gclx-official
+    
+13. nft-minting-dapp
+     Website : https://nft-minting-dapp.vercel.app/
+     
+     Github: https://github.com/fazelpejmanfar/nft-minting-dapp
 
